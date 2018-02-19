@@ -1,4 +1,4 @@
-SOURCES = $(shell find src/lexer src/parser -name '*.cpp')
+SOURCES = $(shell find src/lexer src/parser src/codegen -name '*.cpp')
 HEADERS = $(shell find src -name '*.h')
 OBJ = ${SOURCES:.cpp=.o}
 
