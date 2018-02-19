@@ -1,0 +1,6 @@
+*.gch
+*.out
+*.dSYM
+*.o
+
+/llvm
